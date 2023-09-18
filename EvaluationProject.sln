@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34031.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Back-end", "Back-end", "{F10BAFBD-DD8F-4A85-9205-45D1B7A6C11D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front-end", "Front-end", "{E70E535C-CF6F-4566-94D1-DBE9CC09DC58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{223BB85A-B74C-4E06-9CB5-E554EF5D169B}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.CDB", "Back-end\API.CDB\API.CDB.csproj", "{C087DC40-350F-40A2-804E-44EF0574E753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.CDB.Tests", "Back-end\API.CDB.Tests\API.CDB.Tests.csproj", "{7D89FB24-359A-4FFC-B4D6-E1501773B580}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C087DC40-350F-40A2-804E-44EF0574E753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C087DC40-350F-40A2-804E-44EF0574E753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C087DC40-350F-40A2-804E-44EF0574E753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C087DC40-350F-40A2-804E-44EF0574E753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D89FB24-359A-4FFC-B4D6-E1501773B580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D89FB24-359A-4FFC-B4D6-E1501773B580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D89FB24-359A-4FFC-B4D6-E1501773B580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D89FB24-359A-4FFC-B4D6-E1501773B580}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C087DC40-350F-40A2-804E-44EF0574E753} = {F10BAFBD-DD8F-4A85-9205-45D1B7A6C11D}
+		{7D89FB24-359A-4FFC-B4D6-E1501773B580} = {F10BAFBD-DD8F-4A85-9205-45D1B7A6C11D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8F37BB4-E252-4B10-8ACC-ACF015C3CF08}
+	EndGlobalSection
+EndGlobal
